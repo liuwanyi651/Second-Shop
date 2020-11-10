@@ -1,0 +1,99 @@
+/* 全局清m，p */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* flex弹性盒子 */
+.flex{
+    display: flex;
+}
+.flex-clum{
+    display: flex;
+    flex-direction: column;
+    /* 竖向排列 */
+}
+.f-w{
+    flex-wrap: wrap;
+}
+.j-center{
+    display: flex;
+    justify-content:center;
+}
+.a-center{
+    align-items: center;
+}
+/* 对齐方式 */
+.j-betw{
+    justify-content: space-between;
+}
+.j-arou{
+    justify-content: space-around;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.j-start{
+    justify-content: flex-start;
+    
+}
+.m-a{
+    margin: 0 auto;
+}
+/* 定位方式 */
+.p-r{
+    position: relative;
+}
+.p-a{
+    position: absolute;
+}
+.p-aa{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+/* 边框 */
+.bor-solid{
+    width: 200px;
+    height: 200px;
+    border : 1px solid black;
+}
+.bor-r-d{
+    border-right: 1px dashed black;
+}
+/* 字体样式 */
+.font-b{
+    font-weight: bold;
+}
+/* 文本样式 */
+.t-center{
+    text-align: center;
+    
+}
+/* 宽度 */
+.w{
+    width: 100%;
+}
+/*内间距 */
+.p{
+    padding: 0 0 20px 20px;
+}
+.p-left{
+    padding-left: 30px;
+}
+/* 输入框样式 */
+input{
+    width: 180px;
+    height: 30px;
+    border-radius:50px;
+    outline: none;
+    padding-left: 30px;
+}
+/* iconfont的搜索图标 */
+.iconfont.iss{
+    font-size: 20px;
+}
+.bg{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    position: absolute;
+}
