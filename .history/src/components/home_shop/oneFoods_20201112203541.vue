@@ -81,7 +81,7 @@ export default {
                 }
             })
         },
-        foodThree(item) {
+        foodTwo(item) {
             // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
             //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
             this.$router.push({

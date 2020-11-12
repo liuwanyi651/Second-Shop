@@ -4,8 +4,8 @@
     <div class="one">
         <div class="food"><span>1F</span>{{floorName.floor1}}</div>
         <table class="tab">
-            <tr v-for="(item,index) in floor1" :key="index" style="width:183px;" :class="{'box':index===0}">
-                <img :src="item.image" style="width:185px;" @click="foodOne(item)">
+            <tr v-for="(itme,index) in floor1" :key="index" style="width:183px;" :class="{'box':index===0}" @click="goFoods(res.code.data.floor1.item)">
+                <img :src="itme.image" style="width:185px;">
             </tr>
         </table>
     </div>
@@ -13,8 +13,8 @@
     <div class="one">
         <div class="food"><span>2F</span> {{floorName.floor2}}</div>
         <table class="tab">
-            <tr v-for="(item,index) in floor2" :key="index" style="width:183px;" :class="{'box':index===0}">
-                <img :src="item.image" style="width:185px;" @click="foodTwo(item)">
+            <tr v-for="(itme,index) in floor2" :key="index" style="width:183px;" :class="{'box':index===0}">
+                <img :src="itme.image" style="width:185px;">
             </tr>
         </table>
     </div>
@@ -22,8 +22,8 @@
     <div class="one">
         <div class="food"><span>3F</span> {{floorName.floor3}}</div>
         <table class="tab">
-            <tr v-for="(item,index) in floor3" :key="index" style="width:183px;" :class="{'box':index===0}">
-                <img :src="item.image" style="width:185px;" @click="foodThree(item)">
+            <tr v-for="(itme,index) in floor3" :key="index" style="width:183px;" :class="{'box':index===0}">
+                <img :src="itme.image" style="width:185px;">
             </tr>
         </table>
     </div>
@@ -57,43 +57,18 @@ export default {
         },
         //路由传参 
         //这里item是形参 拿来接收 随便什么字母都可以 
-        foodOne(item) {
-            // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
+        goFoods(item) {
+            console.log(res.code.data.floor1.item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
             //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
             this.$router.push({
                 name: 'detail', //路由跳转到detail详情页面
                 //query传参  query又是一个对象
                 // 传到详情页的参数
                 query: {
-                    id: item.goodsId // 这里的id是自己定义的名字 item.goodsId 是值:fb0f913950944b66a97ae262ad14609a
+                    id: item.floor1 // 这里的id是自己定义的名字 item.goodsId 是值:fb0f913950944b66a97ae262ad14609a
                 }
             })
-        },
-        foodTwo(item) {
-            // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
-            //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
-            this.$router.push({
-                name: 'detail', //路由跳转到detail详情页面
-                //query传参  query又是一个对象
-                // 传到详情页的参数
-                query: {
-                    id: item.goodsId // 这里的id是自己定义的名字 item.goodsId 是值:fb0f913950944b66a97ae262ad14609a
-                }
-            })
-        },
-        foodThree(item) {
-            // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
-            //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
-            this.$router.push({
-                name: 'detail', //路由跳转到detail详情页面
-                //query传参  query又是一个对象
-                // 传到详情页的参数
-                query: {
-                    id: item.goodsId // 这里的id是自己定义的名字 item.goodsId 是值:fb0f913950944b66a97ae262ad14609a
-                }
-            })
-        },
-
+        }
     },
     mounted() {
         this.getFloor()

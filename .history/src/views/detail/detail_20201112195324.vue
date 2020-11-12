@@ -86,12 +86,7 @@ export default {
                 if (res.code === 200) {
                     // console.log(res);
                     this.list = res.goods.goodsOne //赋值 拿到较近的一层
-                    // console.log(this.list);
-                    if (!res.goods.goodsOne) { //判断商品不存在
-                        console.log(111);
-                        this.$toast("该商品不存在"); //不存在则提示
-                        this.$router.push("/")
-                    }
+                    console.log(this.list);
                 }
             }).catch(err => {
                 console.log(err);

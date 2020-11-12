@@ -69,7 +69,7 @@ export default {
                 }
             })
         },
-        foodTwo(item) {
+        foodOne(item) {
             // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
             //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
             this.$router.push({
@@ -81,19 +81,6 @@ export default {
                 }
             })
         },
-        foodThree(item) {
-            // console.log(item); //从首页点击某一项热销商品 获取到对象 对象里有相应的值
-            //push还可以传入一个对象 对象可以传入path属性 也可以传入name属性 name是路由配置的name 不是组件内部的name
-            this.$router.push({
-                name: 'detail', //路由跳转到detail详情页面
-                //query传参  query又是一个对象
-                // 传到详情页的参数
-                query: {
-                    id: item.goodsId // 这里的id是自己定义的名字 item.goodsId 是值:fb0f913950944b66a97ae262ad14609a
-                }
-            })
-        },
-
     },
     mounted() {
         this.getFloor()
