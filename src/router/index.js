@@ -80,12 +80,14 @@ const router = new VueRouter({
 router.beforeEach((to,form,next) =>{
   //动态改变浏览器的标题
   document.title = to.meta.title
-  // next()
+  next()
   let user = localStorage.getItem('user')
-  if(to.path === '/login' || to.path === '/register'){next()}else{
-    // console.log(user);
-    user ? next():(next('/login') || next('/register'))
-  }
+  
+//移动端不需要路由守卫做判断
+//   if(to.path === '/login' || to.path === '/register'){next()}else{
+//     // console.log(user);
+//     user ? next():(next('/login') || next('/register'))
+//   }
 
 })
 

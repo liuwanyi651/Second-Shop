@@ -104,10 +104,10 @@ export default {
                         message: res.msg
                     });
                 } else if (res.code === 200) { //登录成功
-                    localStorage.setItem("user", {
+                    localStorage.setItem("user", JSON.stringify({
                         nickname: this.username,
                         password: this.password
-                    })
+                    }))
                     this.$dialog({
                         message: res.msg
                     })

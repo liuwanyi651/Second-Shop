@@ -11,10 +11,10 @@
                 <img src="../../../assets/head.jpg" alt="">
             </div>
             <div class="cw fs18 fw-b t-center pd15">
-                欢迎您：小白
+                欢迎您：{{name.nickname}}
             </div>
             <div class="cw fs14  t-center ">
-                <van-button plain type="default" size="mini">退出登录</van-button>
+                <van-button plain type="default" size="mini" @click="logOut">退出登录</van-button>
             </div>
         </div>
     </div>
@@ -27,8 +27,8 @@
             <div class="cute m bor-r">
                 <img src="../../../assets/head_mr.jpg" alt="">
             </div>
-            <div class="cw fs18 fw-b t-center pd15">
-                登录/注册
+             <div class="cw fs14  t-center m20">
+                <van-button plain type="default" size="mini" @click="goLogin">登录/注册</van-button>
             </div>
             <div class="cw fs14  t-center ">
                 <!--<van-button plain type="default" size="mini">退出登录</van-button>--->
@@ -61,13 +61,53 @@ export default {
     props: {},
     data() {
         return {
-            flag: true
+            flag: true,
             //打标记 默认是true
+            name:"",
+            Dialog: ""
         }
     },
     components: {},
-    methods: {},
+    methods: {
+        //调接口 post请求 获取用户信息的数据 
+        getData(){
+            this.$api.queryUserMsg().then(res=>{
+                this.name = res.userInfo
+                //  console.log(this.name);
+            }).catch(err =>{
+                console.log(err);
+            })
+        },
+        //点击退出登录后 直接进入未登录状态
+        logOut(){
+        this.$dialog
+        .confirm({
+          message: "确定退出登录吗？"
+        })
+        .then(() => {
+          this.$api
+            .loginShopOut()
+            .then(res => {
+              if (res.code === 0) {
+                this.flag = false;
+                localStorage.clear();
+              }
+            })
+            .catch(err => {
+              console.log(err);
+            });
+        });
+    },
+    //点击登录后直接跳转到登录注册页面
+    goLogin(){
+        this.$router.push({
+        path: "/register"
+      });
+    }
+    },
     mounted() {
+        //调用数据
+        this. getData()
         this.flag = localStorage.getItem("user") ? true : false;
         //如果登录成功后 得到user 会跑到默认的ture 登录状态 否则跑到第二种未登录的状态
         // console.log(this.flag); //true
