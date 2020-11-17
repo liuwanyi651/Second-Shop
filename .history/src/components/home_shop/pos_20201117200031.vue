@@ -1,0 +1,142 @@
+<template>
+  <div>
+    <van-sticky>
+      <div style="display:flex;justify-content:space-around;background:white;">
+        <div style="margin:20px;" @click="position">{{ city }}<van-icon name="arrow-down" /></div>
+        <div style="width:270px;">
+          <van-search
+            @input="onclick"
+            v-model="value"
+            show-action
+            placeholder="请输入搜索关键词"
+          >
+            <template #action>
+              <div>搜索</div>
+            </template>
+          </van-search>
+        </div>
+      </div>
+    </van-sticky>
+    <div>
+      <div v-for="(item, index) in list" :key="index">
+        <div class="list" @click="go(item)">
+          <img :src="item.image" />
+          <span v-html="item.name"></span>
+        </div>
+      </div>
+    </div>
+    <div v-if="flag">
+      <lun></lun>
+      <one></one>
+      <two></two>
+    </div>
+  </div>
+</template>
+
+<script>
+import lun from "../components/homes/lun.vue";
+import one from "../components/homes/one.vue";
+import two from "../components/homes/two.vue";
+export default {
+  name: "",
+  props: {},
+  data() {
+    return {
+      city: "",
+      value: "",
+      flag: true,
+      list: ""
+    };
+  },
+  components: {
+    lun,
+    one,
+    two
+  },
+  methods: {
+    onclick() {
+      this.flag = false;
+      this.$api
+        .search(this.value)
+        .then(res => {
+          this.list = res.data.list;
+          this.list.map((item) => {
+            this.$set(
+              item,
+              "name",
+              item.name.replace(
+                eval(`/${this.value}/g`),
+                `<span style="color:red;">${this.value}</span>`
+              )
+            )
+          })
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
+    go(item) {
+      this.$router.push({
+        path: "/deta",
+        query: {
+          id: item.id
+        }
+      });
+    },
+    position(){
+      this.$router.push('/position')
+    }
+  },
+  mounted() {
+    let _this = this;
+    AMap.plugin("AMap.Geolocation", function() {
+      let geolocation = new AMap.Geolocation({
+        // 是否使用高精度定位，默认：true
+        enableHighAccuracy: true,
+        // 设置定位超时时间，默认：无穷大
+        timeout: 10000,
+        // 定位按钮的停靠位置的偏移量，默认：Pixel(10, 20)
+        buttonOffset: new AMap.Pixel(10, 20),
+        //  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        zoomToAccuracy: true,
+        //  定位按钮的排放位置,  RB表示右下
+        buttonPosition: "RB"
+      });
+      geolocation.getCurrentPosition();
+      AMap.event.addListener(geolocation, "complete", onComplete);
+      AMap.event.addListener(geolocation, "error", onError);
+      function onComplete(data) {
+        // data是具体的定位信息
+        _this.city = data.addressComponent.city;
+        // console.log(data)
+      }
+      function onError(data) {
+        // 定位出错
+      }
+    });
+  },
+  computed: {},
+  watch: {}
+};
+</script>
+
+<style lang="scss" scoped>
+.my-swipe .van-swipe-item {
+  color: #fff;
+  font-size: 20px;
+  line-height: 150px;
+  text-align: center;
+  background-color: #39a9ed;
+}
+.list {
+  display: flex;
+  margin-bottom: 35px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+span {
+  padding: 30px 0;
+}
+</style>
