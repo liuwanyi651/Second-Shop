@@ -1837,3 +1837,858 @@ name: "MongoError"
 pid: 9412
 hostname: STU008
 
+2020-11-17 14:43:43,118 ERROR 5860 [-/127.0.0.1/-/19ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:45:45,937 ERROR 5860 [-/127.0.0.1/-/57ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:46:15,187 ERROR 5860 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:46:18,794 ERROR 5860 [-/127.0.0.1/-/17ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:46:56,476 ERROR 5860 [-/127.0.0.1/-/11ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:47:49,784 ERROR 5860 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:48:23,209 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 14:48:27,886 ERROR 5860 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:48:04,199 ERROR 5860 [-/127.0.0.1/-/19ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:48:08,323 ERROR 5860 [-/127.0.0.1/-/8ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:48:10,407 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:54:58,617 ERROR 5860 [-/127.0.0.1/-/1ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:54:59,884 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:00,587 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:01,242 ERROR 5860 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:01,690 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:02,266 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:02,520 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:02,749 ERROR 5860 [-/127.0.0.1/-/1ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:02,984 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:03,168 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:03,370 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,064 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,268 ERROR 5860 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,315 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,462 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,662 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:04,955 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:05,182 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:05,397 ERROR 5860 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:05,584 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:05,813 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:06,059 ERROR 5860 [-/127.0.0.1/-/1ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:06,308 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:06,502 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:55:06,721 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:57:24,324 ERROR 5860 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:57:28,375 ERROR 5860 [-/127.0.0.1/-/1ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 18:57:31,526 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:02:02,806 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:02:03,751 ERROR 5860 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:02:04,795 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:02:24,782 ERROR 5860 [-/127.0.0.1/-/13ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:08:19,391 ERROR 5860 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+
+2020-11-17 19:08:28,082 ERROR 5860 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5860
+hostname: student-PC
+

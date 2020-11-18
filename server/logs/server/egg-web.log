@@ -962,3 +962,20 @@
 2020-11-16 15:49:17,475 INFO 4772 [egg-mongoose] instance[0] start successfully
 2020-11-16 15:49:17,478 INFO 4772 [egg-watcher:application] watcher start success
 2020-11-16 15:49:17,496 INFO 4772 [egg:core] dump config after ready, 15ms
+2020-11-17 13:32:03,350 INFO 5860 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\student\\Desktop\\second\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-17 13:32:03,444 INFO 5860 [egg-multipart] stream mode enable
+2020-11-17 13:32:07,280 INFO 5860 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-11-17 13:32:09,563 INFO 5860 [egg-static] starting static serve /public/ -> C:\Users\student\Desktop\second\server\app\public
+2020-11-17 13:32:09,579 INFO 5860 [egg-security] use methodnoallow middleware
+2020-11-17 13:32:09,583 INFO 5860 [egg-security] use noopen middleware
+2020-11-17 13:32:09,595 INFO 5860 [egg-security] use nosniff middleware
+2020-11-17 13:32:09,599 INFO 5860 [egg-security] use xssProtection middleware
+2020-11-17 13:32:09,603 INFO 5860 [egg-security] use xframe middleware
+2020-11-17 13:32:09,606 INFO 5860 [egg-security] use dta middleware
+2020-11-17 13:32:09,606 INFO 5860 [egg-security] compose 6 middlewares into one security middleware
+2020-11-17 13:32:09,704 INFO 5860 [egg:core] dump config after load, 10ms
+2020-11-17 13:32:09,709 INFO 5860 [egg-mongoose] starting...
+2020-11-17 13:32:09,869 INFO 5860 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-11-17 13:32:09,892 INFO 5860 [egg-mongoose] instance[0] start successfully
+2020-11-17 13:32:09,896 INFO 5860 [egg-watcher:application] watcher start success
+2020-11-17 13:32:09,924 INFO 5860 [egg:core] dump config after ready, 22ms
