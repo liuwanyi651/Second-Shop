@@ -697,3 +697,23 @@ hostname: Trayvon
 2020-11-19 08:28:53,358 INFO 5696 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\app.js"
 2020-11-19 08:28:53,359 INFO 5696 [egg-watcher:agent] watcher start success
 2020-11-19 08:28:53,409 INFO 5696 [egg:core] dump config after ready, 12ms
+2020-11-20 08:30:16,438 INFO 5544 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\student\\Desktop\\second\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-20 08:30:16,457 INFO 5544 [egg:core] dump config after load, 9ms
+2020-11-20 08:30:16,678 INFO 5544 [egg-watcher] Start watching: ["C:\\Users\\student\\Desktop\\second\\server\\app","C:\\Users\\student\\Desktop\\second\\server\\config","C:\\Users\\student\\Desktop\\second\\server\\mocks","C:\\Users\\student\\Desktop\\second\\server\\mocks_proxy","C:\\Users\\student\\Desktop\\second\\server\\app.js"]
+2020-11-20 08:30:16,678 INFO 5544 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\app"
+2020-11-20 08:30:16,680 INFO 5544 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\config"
+2020-11-20 08:30:16,681 INFO 5544 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\mocks"
+2020-11-20 08:30:16,681 INFO 5544 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\mocks_proxy"
+2020-11-20 08:30:16,682 INFO 5544 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\app.js"
+2020-11-20 08:30:16,683 INFO 5544 [egg-watcher:agent] watcher start success
+2020-11-20 08:30:16,729 INFO 5544 [egg:core] dump config after ready, 12ms
+2020-11-23 08:26:37,392 INFO 4440 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\student\\Desktop\\second\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-23 08:26:37,411 INFO 4440 [egg:core] dump config after load, 9ms
+2020-11-23 08:26:37,661 INFO 4440 [egg-watcher] Start watching: ["C:\\Users\\student\\Desktop\\second\\server\\app","C:\\Users\\student\\Desktop\\second\\server\\config","C:\\Users\\student\\Desktop\\second\\server\\mocks","C:\\Users\\student\\Desktop\\second\\server\\mocks_proxy","C:\\Users\\student\\Desktop\\second\\server\\app.js"]
+2020-11-23 08:26:37,661 INFO 4440 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\app"
+2020-11-23 08:26:37,662 INFO 4440 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\config"
+2020-11-23 08:26:37,663 INFO 4440 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\mocks"
+2020-11-23 08:26:37,664 INFO 4440 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\mocks_proxy"
+2020-11-23 08:26:37,665 INFO 4440 [egg-watcher] Start watching: "C:\\Users\\student\\Desktop\\second\\server\\app.js"
+2020-11-23 08:26:37,666 INFO 4440 [egg-watcher:agent] watcher start success
+2020-11-23 08:26:37,720 INFO 4440 [egg:core] dump config after ready, 13ms

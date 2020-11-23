@@ -2686,3 +2686,440 @@ hostname: student-PC
 pid: 5860
 hostname: student-PC
 
+2020-11-20 15:44:41,659 ERROR 5632 [-/127.0.0.1/-/17ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 5632
+hostname: student-PC
+
+2020-11-20 15:44:45,731 ERROR 5632 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 5632
+hostname: student-PC
+
+2020-11-20 15:45:08,980 ERROR 5632 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\student\Desktop\second\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:15:13,854 ERROR 5632 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:16:29,140 ERROR 5632 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:17:36,949 ERROR 5632 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:20:38,456 ERROR 5632 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:20:59,374 ERROR 5632 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:21:14,120 ERROR 5632 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:26:42,592 ERROR 5632 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:30:00,367 ERROR 5632 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 17:41:52,999 ERROR 5632 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 18:24:08,738 ERROR 5632 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-20 18:24:13,806 ERROR 5632 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5632
+hostname: student-PC
+
+2020-11-23 08:29:14,606 ERROR 2792 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:29:19,645 ERROR 2792 [-/127.0.0.1/-/8ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:34:30,896 ERROR 2792 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:34:58,326 ERROR 2792 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:51:57,775 ERROR 2792 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:52:11,735 ERROR 2792 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:52:24,987 ERROR 2792 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:52:39,714 ERROR 2792 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 08:52:43,355 ERROR 2792 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
+2020-11-23 12:01:20,289 ERROR 2792 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\student\Desktop\second\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\student\Desktop\second\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\student\Desktop\second\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\student\Desktop\second\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\student\Desktop\second\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\student\Desktop\second\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\student\Desktop\second\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\student\Desktop\second\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 2792
+hostname: student-PC
+
